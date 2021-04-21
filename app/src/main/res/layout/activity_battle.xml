@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BattleActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="@dimen/width"
+        android:layout_height="120pt"
+        android:layout_marginBottom="1pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rotation="0">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="45pt"
+                android:layout_height="30pt"
+                android:insetLeft="@dimen/table_button_inset"
+                android:insetRight="@dimen/table_button_inset"
+                android:insetTop="@dimen/table_button_inset"
+                android:insetBottom="@dimen/table_button_inset"
+                android:rotation="0"
+                android:text="1"
+                android:textSize="@dimen/font_size" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="45pt"
+                android:layout_height="30pt"
+                android:insetLeft="@dimen/table_button_inset"
+                android:insetRight="@dimen/table_button_inset"
+                android:insetTop="@dimen/table_button_inset"
+                android:insetBottom="@dimen/table_button_inset"
+                android:rotation="0"
+                android:text="2"
+                android:textSize="@dimen/font_size" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="45pt"
+                android:layout_height="30pt"
+                android:insetLeft="@dimen/table_button_inset"
+                android:insetRight="@dimen/table_button_inset"
+                android:insetTop="@dimen/table_button_inset"
+                android:insetBottom="@dimen/table_button_inset"
+                android:rotation="0"
+                android:text="3"
+                android:textSize="@dimen/font_size"
+                app:iconPadding="70dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rotation="0">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="45pt"
+                android:layout_height="30pt"
+                android:insetLeft="@dimen/table_button_inset"
+                android:insetRight="@dimen/table_button_inset"
+                android:insetTop="@dimen/table_button_inset"
+                android:insetBottom="@dimen/table_button_inset"
+                android:rotation="0"
+                android:text="4"
+                android:textSize="@dimen/font_size" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="45pt"
+                android:layout_height="30pt"
+                android:insetLeft="@dimen/table_button_inset"
+                android:insetRight="@dimen/table_button_inset"
+                android:insetTop="@dimen/table_button_inset"
+                android:insetBottom="@dimen/table_button_inset"
+                android:rotation="0"
+                android:text="5"
+                android:textSize="@dimen/font_size" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="45pt"
+                android:layout_height="30pt"
+                android:insetLeft="@dimen/table_button_inset"
+                android:insetRight="@dimen/table_button_inset"
+                android:insetTop="@dimen/table_button_inset"
+                android:insetBottom="@dimen/table_button_inset"
+                android:rotation="0"
+                android:text="6"
+                android:textSize="@dimen/font_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rotation="0">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="45pt"
+                android:layout_height="30pt"
+                android:insetLeft="@dimen/table_button_inset"
+                android:insetRight="@dimen/table_button_inset"
+                android:insetTop="@dimen/table_button_inset"
+                android:insetBottom="@dimen/table_button_inset"
+                android:rotation="0"
+                android:text="7"
+                android:textSize="@dimen/font_size" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="45pt"
+                android:layout_height="30pt"
+                android:insetLeft="@dimen/table_button_inset"
+                android:insetRight="@dimen/table_button_inset"
+                android:insetTop="@dimen/table_button_inset"
+                android:insetBottom="@dimen/table_button_inset"
+                android:rotation="0"
+                android:text="8"
+                android:textSize="@dimen/font_size" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="45pt"
+                android:layout_height="30pt"
+                android:insetLeft="@dimen/table_button_inset"
+                android:insetRight="@dimen/table_button_inset"
+                android:insetTop="@dimen/table_button_inset"
+                android:insetBottom="@dimen/table_button_inset"
+                android:rotation="0"
+                android:text="9"
+                android:textSize="@dimen/font_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rotation="0">
+
+            <Button
+                android:id="@+id/button_neg"
+                android:layout_width="45pt"
+                android:layout_height="30pt"
+                android:insetLeft="@dimen/table_button_inset"
+                android:insetRight="@dimen/table_button_inset"
+                android:insetTop="@dimen/table_button_inset"
+                android:insetBottom="@dimen/table_button_inset"
+                android:rotation="0"
+                android:text="-"
+                android:textSize="@dimen/font_size" />
+
+            <Button
+                android:id="@+id/button0"
+                android:layout_width="45pt"
+                android:layout_height="30pt"
+                android:insetLeft="@dimen/table_button_inset"
+                android:insetRight="@dimen/table_button_inset"
+                android:insetTop="@dimen/table_button_inset"
+                android:insetBottom="@dimen/table_button_inset"
+                android:rotation="0"
+                android:text="0"
+                android:textSize="@dimen/font_size" />
+
+            <Button
+                android:id="@+id/button_finish_task"
+                android:layout_width="45pt"
+                android:layout_height="30pt"
+                android:insetLeft="@dimen/table_button_inset"
+                android:insetRight="@dimen/table_button_inset"
+                android:insetTop="@dimen/table_button_inset"
+                android:insetBottom="@dimen/table_button_inset"
+                android:rotation="0"
+                android:text="V"
+                android:textSize="@dimen/font_size" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button_finish_battle"
+        android:layout_width="135pt"
+        android:layout_height="20pt"
+        android:layout_marginTop="1pt"
+        android:insetLeft="@dimen/table_button_inset"
+        android:insetRight="@dimen/table_button_inset"
+        android:insetTop="@dimen/table_button_inset"
+        android:insetBottom="@dimen/table_button_inset"
+        android:text="Finish battle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="@dimen/width"
+        android:layout_height="20pt"
+        android:layout_marginTop="0pt"
+        android:background="@drawable/inset_rounded"
+        android:gravity="center"
+        android:insetLeft="@dimen/table_button_inset"
+        android:insetRight="@dimen/table_button_inset"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_finish_battle">
+
+        <TextView
+            android:id="@+id/first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:id="@+id/operation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:id="@+id/second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/font_size" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/userAns"
+        android:layout_width="@dimen/width"
+        android:layout_height="20pt"
+        android:layout_marginBottom="0pt"
+        android:background="@drawable/inset_rounded"
+        android:gravity="center"
+        android:text="123"
+        android:textSize="@dimen/font_size"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

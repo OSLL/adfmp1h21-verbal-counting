@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">verbal-counting</string>
+    <string name="app_name">Verbal Counting</string>
+    <string name="default_battle_result">"Solved Tasks: 2
+Mistakes: 1
+Correctness: 50%
+Summary time: 42.02s
+Time per task: 21.03s"</string>
+
+    <string name="default_training_result">"Solved: 2
+Errors: 1
+Correctness: 50%"</string>
+
+    <string name="default_statistics">"Solved tasks: 200
+Solved correctly:150
+Mistakes: 50
+Correctness: 75%
+Summary time: 4506.00s
+Time per tasks: 22.80s"</string>
+
+    <string name="default_about">"Welcome to VerbalMath App v. 1.0.1
+        - You can click continue in main menu and solve some tasks.
+        - You can check your statistics by press “Statistics” button in main menu."</string>
 </resources>

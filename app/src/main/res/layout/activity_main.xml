@@ -4,15 +4,71 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="192dp"
-        android:text="Button"
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/battle_button"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:insetLeft="20dp"
+            android:insetTop="10dp"
+            android:insetRight="20dp"
+            android:insetBottom="10dp"
+            android:text="battle" />
+
+        <Button
+            android:id="@+id/train_button"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:insetLeft="20dp"
+            android:insetTop="10dp"
+            android:insetRight="20dp"
+            android:insetBottom="10dp"
+            android:text="menu point" />
+
+        <Button
+            android:id="@+id/statistics_button"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:insetLeft="20dp"
+            android:insetTop="10dp"
+            android:insetRight="20dp"
+            android:insetBottom="10dp"
+            android:text="Statistics" />
+
+        <Button
+            android:id="@+id/about_button"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:insetLeft="20dp"
+            android:insetTop="10dp"
+            android:insetRight="20dp"
+            android:insetBottom="10dp"
+            android:text="about" />
+
+        <Button
+            android:id="@+id/quit_button"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:insetLeft="20dp"
+            android:insetTop="10dp"
+            android:insetRight="20dp"
+            android:insetBottom="10dp"
+            android:text="Quit" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="table_button_inset" >2pt</dimen>
+    <dimen name="font_size" >12pt</dimen>
+    <dimen name="width" >135pt</dimen>
+</resources>

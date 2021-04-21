@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/rounded_corner"
+    android:insetLeft="@dimen/table_button_inset"
+    android:insetRight="@dimen/table_button_inset"
+    android:insetTop="@dimen/table_button_inset"
+    android:insetBottom="@dimen/table_button_inset" />

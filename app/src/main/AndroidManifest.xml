@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Verbalcounting">
+        <activity android:name=".StatisticsActivity"></activity>
+        <activity android:name=".TrainingResultsActivity" />
+        <activity android:name=".TrainingActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".BattleResultsActivity" />
+        <activity android:name=".BattleActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
